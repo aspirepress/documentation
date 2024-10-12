@@ -89,7 +89,7 @@ let colors = {
 
 module.exports = {
     content: [
-        './_site/**/*.html',
+        './_layouts/**/*.html',
     ],
     theme: {
         extend: {
