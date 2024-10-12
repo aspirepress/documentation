@@ -10,4 +10,11 @@ AspirePress is an open source project dedicated to improving the WordPress ecosy
 
 We're building the content management system we all aspire for.
 
+```php
+<?php
+
+$var = 'this is a test string';
+
+```
+
 
