@@ -1,0 +1,45 @@
+Flysystem:
+    Introduction: '/v1/docs/'
+    Architecture: '/v1/docs/architecture/'
+    Security Policy: '/v1/security/'
+    👋 Check out V2: '/docs/'
+
+Usage:
+    Setup / Bootstrap: '/v1/docs/usage/setup/'
+    Filesystem API: '/v1/docs/usage/filesystem-api/'
+
+Guides:
+    Laravel Usage: '/v1/docs/guides/laravel-usage/'
+    Symfony Usage: '/v1/docs/guides/symfony-usage/'
+    Silverstripe CMS Usage: '/v1/docs/guides/silverstripe-usage/'
+    Nette Usage: '/v1/docs/guides/nette-usage/'
+    Deterministic Code: '/v1/docs/guides/deterministic-programming/'
+    Handling Uploads: '/v1/docs/guides/uploads/'
+
+Adapters:
+    Local: '/v1/docs/adapter/local/'
+    Azure: '/v1/docs/adapter/azure/'
+    AWS S3: '/v1/docs/adapter/aws-s3-v3/'
+    DigitalOcean Spaces: '/v1/docs/adapter/digitalocean-spaces/'
+    Scaleway Object Storage: '/v1/docs/adapter/scaleway-object-storage/'
+    Dropbox: '/v1/docs/adapter/dropbox/'
+    FTP: '/v1/docs/adapter/ftp/'
+    GitLab: '/v1/docs/adapter/gitlab/'
+    Google Cloud Storage: '/v1/docs/adapter/google-cloud-storage/'
+    Memory: '/v1/docs/adapter/memory/'
+    Null / Test: '/v1/docs/adapter/null-test/'
+    Rackspace: '/v1/docs/adapter/rackspace/'
+    ReplicateAdapter: '/v1/docs/adapter/replicate/'
+    SFTP: '/v1/docs/adapter/sftp/'
+    WebDAV: '/v1/docs/adapter/webdav/'
+    PHPCR: '/v1/docs/adapter/phpcr/'
+    ZipArchive: '/v1/docs/adapter/zip-archive/'
+
+Advanced Usage:
+    Performance: '/v1/docs/advanced/performance/'
+    Mount Manager: '/v1/docs/advanced/mount-manager/'
+    Caching: '/v1/docs/advanced/caching/'
+    Plugins: '/v1/docs/advanced/plugins/'
+    Provided Plugins: '/v1/docs/advanced/provided-plugins/'
+    Upgrade to 1.0.0: '/v1/docs/advanced/upgrade-to-1.0.0/'
+    Creating an adapter: '/v1/docs/advanced/creating-an-adapter/'

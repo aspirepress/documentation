@@ -1,0 +1,48 @@
+Flysystem:
+    Introduction: '/docs/'
+    Getting Started: '/docs/getting-started/'
+    Architecture &amp; Design: '/docs/architecture/'
+    Security Policy: '/security/'
+    Upgrade from 1.x: '/docs/upgrade-from-1.x/'
+    New In V2 and V3: '/docs/what-is-new/'
+
+Usage:
+    Filesystem API: '/docs/usage/filesystem-api/'
+    Public URLs: '/docs/usage/public-urls/'
+    Temporary URLs: '/docs/usage/temporary-urls/'
+    Checksums: '/docs/usage/checksums/'
+    Directory Listings: '/docs/usage/directory-listings/'
+    Exception Handling: '/docs/usage/exception-handling/'
+    Visibility and Permissions: '/docs/visibility/'
+    Unix-Style Visibility: '/docs/usage/unix-visibility/'
+
+Official Adapters:
+    Local: '/docs/adapter/local/'
+    FTP: '/docs/adapter/ftp/'
+    InMemory: '/docs/adapter/in-memory/'
+    Read-Only: '/docs/adapter/read-only/'
+    Path Prefixing: '/docs/adapter/path-prefixing/'
+    AWS S3: '/docs/adapter/aws-s3-v3/'
+    AsyncAws S3: '/docs/adapter/async-aws-s3/'
+    Azure Blob Storage: '/docs/adapter/azure-blob-storage/'
+    Google Cloud Storage: '/docs/adapter/google-cloud-storage/'
+    MongoDB GridFS: '/docs/adapter/gridfs/'
+    SFTP (V2): '/docs/adapter/sftp-v2/'
+    SFTP (V3): '/docs/adapter/sftp-v3/'
+    WebDAV: '/docs/adapter/webdav/'
+    ZipArchive: '/docs/adapter/zip-archive/'
+
+Community Adapters:
+    GitLab: '/docs/adapter/gitlab/'
+
+Guides:
+    Laravel Usage: '/docs/guides/laravel-usage/'
+    Symfony Usage: '/docs/guides/symfony-usage/'
+
+Advanced:
+  Mime-type detection: '/docs/advanced/mime-type-detection/'
+  Creating an adapter: '/docs/advanced/creating-an-adapter/'
+  Mount Manager: '/docs/advanced/mount-manager/'
+
+Legacy:
+  Version 1 Docs: '/v1/docs/'

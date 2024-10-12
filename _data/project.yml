@@ -1,5 +1,5 @@
-title: BooBoo
-tagline: Because everybody makes mistakes.
-description:
-google_analytics_tracking_id:
-base_href:
+title: "Flysystem"
+tagline: "Many filesystems, one API."
+description: "Filesystem abstraction library for PHP."
+version_v1: 1.1
+version_v2: "3.19"
