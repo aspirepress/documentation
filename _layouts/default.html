@@ -22,13 +22,7 @@
             <a href="/" class="flex items-center h-10">
                 <img class="h-10 w-10 mr-3" width="30" height="30" src="/img/aspirepress.png"/>
                 <span class="pr-2 font-normal overflow-hidden font-heading text-3xl text-indigo-darkest -sm:hidden">
-                    Flysystem
-                    {% if page.url contains "/v1/" %}
-                        {% assign library_version = site.data.project.version_v1 %}
-                    {% else %}
-                        {% assign library_version = site.data.project.version_v2 %}
-                    {% endif %}
-                    <sup class="text-xs relative text-indigo" style="top: -20px;">{{ library_version }}</sup>
+                    AspirePress Docs
                 </span>
             </a>
             <div class="flex-grow"></div>
@@ -92,7 +86,7 @@
 <footer class="bg-indigo-darkest text-white">
 
 </footer>
-<script type="text/javascript" src="{{ site.data.manifest['docs.js'] }}"></script>
+<!--<script type="text/javascript" src="{{ site.data.manifest['docs.js'] }}"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
 <script type="text/javascript"> docsearch({
     apiKey: 'be7daf2d7afded0acb0589a0e304a423',
@@ -100,6 +94,6 @@
     inputSelector: '#global-search',
     debug: {% if site.data.dev.dev_mode %}true{% else %}false{% endif %}
 });
-</script>
+</script>!-->
 </body>
 </html>
