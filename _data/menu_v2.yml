@@ -1,11 +1,11 @@
 AspirePress:
-    Introduction: '/docs/aspirepress/'
+    Introduction: '/'
 
 AspireCloud:
-    Introduction: '/docs/aspirecloud/'
+    Introduction: '/aspirecloud/'
 
 AspireSync:
-    Introduction: '/docs/aspiresync/'
+    Introduction: '/aspiresync/'
 
 AspireUpdate:
-    Introduction: '/docs/aspireupdate/'
+    Introduction: '/aspireupdate/'
