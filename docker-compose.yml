@@ -1,0 +1,11 @@
+services:
+  node:
+    image: node
+    volumes:
+      - .:/opt/docs
+    working_dir: /opt/docs
+    networks:
+      - aspirepress-docs
+
+networks:
+  aspirepress-docs: ~
