@@ -22,23 +22,32 @@ Here are the current main features of AspireSync:
 
 NOTE: AspireSync runs in a Docker container, so make sure you have Docker installed. You can run Docker on [Windows or Mac natively](https://docs.docker.com/engine/install/) but these instructions will not cover those situations. The documentation assumes you are running Linux, MacOS Mach or Windows WSL2. If you want to build your own Docker container head on over to the [AspireSync README file](https://github.com/aspirepress/AspireSync/blob/main/README.md) for prerequisites and instructions.
 
-You may need to prefix all commands with `sudo` depending on your permission level for your login.
+You may need to prefix commands with `sudo` depending on your permission level for your login.
 
 1. `git clone https://github.com/aspirepress/AspireSync` to retrieve  the code base to your environment
+   
 2. You will need to setup an [ssh public key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) using this command `ssh-keygen -t ed25519 -C "<YOUR GITHUB EMAIL>"`
+   
 3. Check ssh-agent is running:
-`eval $(ssh-agent)`
-``eval `ssh-agent```
-4. Run `ssh-add` to add your identity
-5. You can setup a maximum lifetime for keys. For example `ssh-add -t 8h00` will make the key last for 8 hours.
-6. Add the SSH public key as an authentication key in your [GitHub account](https://github.com/settings/keys)
-7. `git config --global --add safe.directory <your AspireSync directory>`
-8. `git submodule update --init && cp .env.dist .env` to create database migrations and create template .env file
-9. `make init` to build the Docker container for AspireSync
-10. `make list` to see available AspireSync commands
-11. `make run` which will run the container.
-12. `aspiresync <command>` to execute your desired command.
+   `eval $(ssh-agent)` and `eval` ``ssh-agent``
 
+4. Run `ssh-add` to add your identity
+   
+5. You can setup a maximum lifetime for keys. For example `ssh-add -t 8h00` will make the key last for 8 hours.
+   
+6. Add the SSH public key as an authentication key in your [GitHub account](https://github.com/settings/keys)
+   
+7. `git config --global --add safe.directory <your AspireSync directory>`
+   
+8. `git submodule update --init && cp .env.dist .env` to create database migrations and create template .env file
+   
+9.  `make init` to build the Docker container for AspireSync
+    
+10. `make list` to see available AspireSync commands
+    
+11. `make run` which will run the container.
+    
+12. `aspiresync <command>` to execute your desired command.
 
 
 To use AspireSync from a DockerHub container you can use:
