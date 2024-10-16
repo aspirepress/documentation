@@ -34,7 +34,7 @@ State Diagram:
 
 [Diagram by Mermaid](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/)
 
-<div class="mermaid">
+```mermaid
 sequenceDiagram;
     participant SiteA as AspireUpdate on WP-Site1;
     participant CentralAPI as AspireCloud;
@@ -51,7 +51,7 @@ sequenceDiagram;
         CentralAPI->>CentralAPI: Store asset data;
         CentralAPI-->>SiteA: Return asset data;
     end;
-</div>
+```
 
 
 This approach has several benefits:
