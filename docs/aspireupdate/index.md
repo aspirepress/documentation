@@ -23,21 +23,21 @@ Overall Status: v0.1 doesn’t implement 4,5,7,8 yet.
 [Testing Link in WP Playgrounds](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/aspirepress/AspireUpdate/refs/heads/playground-ready/assets/playground/blueprint.json)
 
 ```mermaid
-sequenceDiagram
-    participant SiteA as AU on WPSite1
-    participant CentralAPI as AspireCloud
-    participant WPRepo as WP.org API
+sequenceDiagram;
+    participant SiteA as AU on WPSite1;
+    participant CentralAPI as AspireCloud;
+    participant WPRepo as WP.org API;
 
-    SiteA->>CentralAPI: Request plugin info
-    CentralAPI->>CentralAPI: Check cache for plugin data
-    alt Plugin data exists in cache
-        CentralAPI-->>SiteA: Return cached data
-    else Plugin data not found
-        CentralAPI->>WPRepo: Fetch plugin info from origin API
-        WPRepo-->>CentralAPI: Return plugin data
-        CentralAPI->>CentralAPI: Cache plugin data
-        CentralAPI-->>SiteA: Return plugin data
-    end
+    SiteA->>CentralAPI: Request plugin info;
+    CentralAPI->>CentralAPI: Check cache for plugin data;
+    alt Plugin data exists in cache;
+        CentralAPI-->>SiteA: Return cached data;
+    else Plugin data not found;
+        CentralAPI->>WPRepo: Fetch plugin info from origin API;
+        WPRepo-->>CentralAPI: Return plugin data;
+        CentralAPI->>CentralAPI: Cache plugin data;
+        CentralAPI-->>SiteA: Return plugin data;
+    end;
 ```
 
 https://github.com/mzalewski/wpupdates/blob/master/includes/update-endpoints.php For endpoint mocker 
