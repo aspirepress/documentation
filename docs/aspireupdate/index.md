@@ -12,11 +12,17 @@ permalink: /aspireupdate/
 ## How to install AspireUpdate
 
 Download and install AspireUpdate:
+
 [Development](https://github.com/aspirepress/AspireUpdate/tree/Develop)
+
 [Main](https://github.com/aspirepress/AspireUpdate/tree/main)
 
-WP Playground: [Testing Link in WP Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/aspirepress/AspireUpdate/refs/heads/playground-ready/assets/playground/blueprint.json) [WP Playground Blueprint](https://github.com/aspirepress/AspireUpdate/blob/playground-ready/assets/playground/blueprint.json)
+WP Playground:
+[Testing Link in WP Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/aspirepress/AspireUpdate/refs/heads/playground-ready/assets/playground/blueprint.json)
 
+[WP Playground Blueprint](https://github.com/aspirepress/AspireUpdate/blob/playground-ready/assets/playground/blueprint.json)
+
+No API Key is required.
 
 ## Design of Phase 1 of AspirePress
 
@@ -48,30 +54,18 @@ sequenceDiagram;
 
 This approach has several benefits:
 
-1. test
-2. test
-   
-3. Scopes down AspireSync entirely out of the solution for now. No federation between AspireClouds for now. Initial mirror(s) start with zero plugins or themes and grow organically as demand for hosting on mirror grows. Installation is greatly reduced as you need AspireUpdate plugin at the user's end and AspireCloud service to handle update requests and delegate to .org if there is no asset to serve from configured API update endpoint. 
-   
-4. Hosting companies can set this up for their default WordPress installs with default AspireClouds on their own. Let a million mirrors bloom!
-   
-5. Aspire Updater plugin is installed on a site. User can choose from a list of known AspireClouds, or it can be locked to one by host. 
-   
-6. The plugin rewrites all API calls to api.aspirepress.org or to another AspireCloud powered API. AP maintains for now  a set of trusted API end points which correspond to AspireCloud mirrors. 
-   
-7. If AspireCloud has a response, that requested asset is available, we give the asset back to plugin.
-   
-8. If AspireCloud does not have the  asset, AspireUodate then calls .org canonical repo. It fetches the asset, pushes the whole response to AspireCloud to populate the mirror with the requested asset. This is how a specific AspireCloud gets populated with new assets beyond manual population by a plugin or theme developer.
-   
-9.  AspireUpdate passes the response of asset back to WordPress for handling the update install process. 
-   
-10. AspireCloud receives the asset, stores it  in the data store. It can later serve requests for newly acquired asset. 
-
-11. The asset that was pulled in from .org will expire after say 1 day (configurable).
-   
-12. Once the asset expires, future requests to  AspireCloud  tells AspireUpdate that it doesn’t have the asset, fetches it again in the similar approach as above. 
-
-13. The Process repeats as requests are made for updates. Deletgations are made to WordPress.org are made when an asset locally is not available. 
+ 
+1. Scopes down AspireSync entirely out of the solution for now. No federation between AspireClouds for now. Initial mirror(s) start with zero plugins or themes and grow organically as demand for hosting on mirror grows. Installation is greatly reduced as you need AspireUpdate plugin at the user's end and AspireCloud service to handle update requests and delegate to .org if there is no asset to serve from configured API update endpoint.   
+2. Hosting companies can set this up for their default WordPress installs with default AspireClouds on their own. Let a million mirrors bloom!
+3. Aspire Updater plugin is installed on a site. User can choose from a list of known AspireClouds, or it can be locked to one by host. 
+4. The plugin rewrites all API calls to api.aspirepress.org or to another AspireCloud powered API. AP maintains for now  a set of trusted API end points which correspond to AspireCloud mirrors.   
+5. If AspireCloud has a response, that requested asset is available, we give the asset back to plugin.  
+6. If AspireCloud does not have the  asset, AspireUodate then calls .org canonical repo. It fetches the asset, pushes the whole response to AspireCloud to populate the mirror with the requested asset. This is how a specific AspireCloud gets populated with new assets beyond manual population by a plugin or theme developer.  
+7.  AspireUpdate passes the response of asset back to WordPress for handling the update install process.   
+8. AspireCloud receives the asset, stores it  in the data store. It can later serve requests for newly acquired asset.
+9. The asset that was pulled in from .org will expire after say 1 day (configurable).  
+10. Once the asset expires, future requests to  AspireCloud  tells AspireUpdate that it doesn’t have the asset, fetches it again in the similar approach as above.
+11. The Process repeats as requests are made for updates. Deletgations are made to WordPress.org are made when an asset locally is not available. 
 
 👥 The current team
 
