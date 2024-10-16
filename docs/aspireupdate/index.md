@@ -42,7 +42,7 @@ sequenceDiagram;
 
     SiteA->>CentralAPI: Request asset info;
     CentralAPI->>CentralAPI: Check local repository for asset data;
-    ACFound Plugin data exists in local repository;
+    alt Plugin data exists in local repository;
         CentralAPI-->>SiteA: Return asset(s);
     else Asset(s) requested not found;
         CentralAPI->>WPRepo: Fetch asset info from canonical API;
