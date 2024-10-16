@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
     <link rel="stylesheet" href="{{ site.data.manifest['docs.css'] }}" />
 
-
+    <!-- mermaid modules and style samples 
+     themes: default, neutral, dark, forest or base
+    -->
 
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.3.0/+esm'
@@ -23,6 +25,32 @@
         await mermaid.run({ querySelector: 'code.language-mermaid' })
     </script>
 
+    <style>
+        code.language-mermaid {
+            display: flex;
+            justify-content: center;
+        }
+
+        pre:has(code.language-mermaid),
+        code.language-mermaid {
+            background-color: transparent;
+        }
+
+        .edgeLabel {
+            font-size: 92%;
+            opacity: .95;
+            color: #111;
+            padding: 0 3px;
+        }
+
+        .node rect {
+            stroke: #214f78 !important;
+        }
+
+        .nodeLabel {
+            color: #214f78 !important;
+        }
+    </style>
 
 </head>
 

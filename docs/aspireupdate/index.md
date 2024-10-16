@@ -33,7 +33,8 @@ Overall Status: v0.1 doesn’t implement all of this design yet.
 State Diagram:
 
 [Diagram by Mermaid](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/)
-```mermaid
+
+<div class="mermaid">
 sequenceDiagram;
     participant SiteA as AU on WPSite1;
     participant CentralAPI as AspireCloud;
@@ -49,7 +50,7 @@ sequenceDiagram;
         CentralAPI->>CentralAPI: Cache plugin data;
         CentralAPI-->>SiteA: Return plugin data;
     end;
-```
+</div>
 
 
 This approach has several benefits:
