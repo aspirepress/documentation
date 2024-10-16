@@ -36,19 +36,19 @@ State Diagram:
 
 <div class="mermaid">
 sequenceDiagram;
-    participant SiteA as AU on WPSite1;
+    participant SiteA as AspireUpdate on WP-Site1;
     participant CentralAPI as AspireCloud;
-    participant WPRepo as WP.org API;
+    participant WPRepo as WordPress.org API;
 
-    SiteA->>CentralAPI: Request plugin info;
-    CentralAPI->>CentralAPI: Check cache for plugin data;
-    alt Plugin data exists in cache;
-        CentralAPI-->>SiteA: Return cached data;
-    else Plugin data not found;
-        CentralAPI->>WPRepo: Fetch plugin info from origin API;
-        WPRepo-->>CentralAPI: Return plugin data;
-        CentralAPI->>CentralAPI: Cache plugin data;
-        CentralAPI-->>SiteA: Return plugin data;
+    SiteA->>CentralAPI: Request asset info;
+    CentralAPI->>CentralAPI: Check local repository for asset data;
+    alt Plugin data exists in local repository;
+        CentralAPI-->>SiteA: Return asset(s);
+    else Asset(s) requested not found;
+        CentralAPI->>WPRepo: Fetch asset info from canonical API;
+        WPRepo-->>CentralAPI: Return asset data;
+        CentralAPI->>CentralAPI: Store asset data;
+        CentralAPI-->>SiteA: Return asset data;
     end;
 </div>
 
