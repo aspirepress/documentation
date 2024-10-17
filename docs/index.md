@@ -18,6 +18,8 @@ We're building the content management system we all aspire for.
   like AspireCloud.
 * [AspireSync](/aspiresync/) - Tooling for pulling a collection of plugins and themes from a source (like WordPress).
 
+A [Docker container](https://gist.github.com/mzalewski/a07708732be526184d8f719d8d6f255f) is available for testing the full environment. 
+
 ## Contributing
 
 AspirePress welcomes contributions from people like you. We encourage you to review
