@@ -13,7 +13,7 @@ permalink: /aspireupdate/
 
 Download and install AspireUpdate:
 
-[In Development](https://github.com/aspirepress/AspireUpdate/tree/making-it-work)
+[In Development](https://github.com/aspirepress/AspireUpdate/tree/main)
 
 
 WP Playground:
