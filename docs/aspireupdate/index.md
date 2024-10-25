@@ -69,12 +69,12 @@ This approach has several benefits:
 
 👥 The current team
 
-| Slack        |     TZ      |                   Role |        Committment        |
-| :----------- | :---------: | ---------------------: | :-----------------------: |
-| @NamithJ     | (GMT+0530)  | AspireUpdate Developer |       4 hours/week        |
-| @Alex        | (GMT -0500) |      AspireUpdate Lead | 1 hour per day maybe more |
-| @Beda Schmid | (GMT +0800) | AspireUpdate Developer |   2 hours per day more    |
-| @Luc Princen | (GMT+0200)  |  AspireCloud Developer |       1 hr per day        |
+| Slack                                            |     TZ      |                   Role |        Committment        |
+| :----------------------------------------------- | :---------: | ---------------------: | :-----------------------: |
+| [@NamithJ](https://github.com/namithj)           | (GMT+0530)  | AspireUpdate Developer |       4 hours/week        |
+| [@asirota](https://github.com/asirota)           | (GMT -0500) |      AspireUpdate Lead | 1 hour per day maybe more |
+| [@sarah-savage](https://github.com/sarah-savage) | (GMT +0800) |           Project Lead |            TBC            |
+
 
 
 🚨Issues/Concerns
@@ -83,7 +83,7 @@ This approach has several benefits:
 * A REST API dev to develop the AspireCloud
 * Need a technical architect for working out the overall design 
 * Need testers!
-* Is there support for theme updates in v1?
+
 
 📝 Upcoming topics
 
