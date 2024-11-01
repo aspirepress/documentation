@@ -101,11 +101,12 @@ Expected Results
 
 👥 The current team
 
-| Slack                                            |     TZ      |                   Role |        Committment        |
-| :----------------------------------------------- | :---------: | ---------------------: | :-----------------------: |
-| [@NamithJ](https://github.com/namithj)           | (GMT+0530)  | AspireUpdate Developer |       4 hours/week        |
-| [@asirota](https://github.com/asirota)           | (GMT -0500) |      AspireUpdate Lead | 1 hour per day maybe more |
-| [@sarah-savage](https://github.com/sarah-savage) | (GMT +0800) |           Project Lead |            TBC            |
+| Slack                                            |     TZ     |                   Role |        Committment        |
+| :----------------------------------------------- | :--------: | ---------------------: | :-----------------------: |
+| [@NamithJ](https://github.com/namithj)           | (GMT+0530) | AspireUpdate Developer |       4 hours/week        |
+| [@costdev](https://github.com/costdev)           | (GMT+0000) | AspireUpdate Developer |            TBC            |
+| [@asirota](https://github.com/asirota)           | (GMT-0500) |      AspireUpdate Lead | 1 hour per day maybe more |
+| [@sarah-savage](https://github.com/sarah-savage) | (GMT-0500) |           Project Lead |            TBC            |
 
 🚨Issues/Concerns
 
