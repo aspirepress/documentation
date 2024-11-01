@@ -70,9 +70,11 @@ This approach has several benefits:
 10. Once the asset expires, future requests to AspireCloud tells AspireUpdate that it doesn’t have the asset, fetches it again in the similar approach as above.
 11. The Process repeats as requests are made for updates. Deletgations are made to WordPress.org are made when an asset locally is not available.
 
+
 ## Testing AspireUpdate
 
 ### Setting up AspireUpdate
+
 
 1. [Visit the WP Playground](https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2Faspirepress%2FAspireUpdate%2Frefs%2Fheads%2Fplayground-ready%2Fassets%2Fplayground%2Fblueprint.json)to load up WordPress, with AspireUpdate latest stable version..
 2. Check `Enable AspireUpdate API Rewrites`.
@@ -108,6 +110,7 @@ Expected Results
 | [@asirota](https://github.com/asirota)           | (GMT-0500) |      AspireUpdate Lead | 1 hour per day maybe more |
 | [@sarah-savage](https://github.com/sarah-savage) | (GMT-0500) |           Project Lead |            TBC            |
 
+=======
 🚨Issues/Concerns
 
 - Need Another plugin dev/tester
@@ -127,7 +130,7 @@ Expected Results
 🔑 Key links
 
 - Slack: See [#aspireupdate](https://app.slack.com/client/T07Q5LB7W23/C07Q88M2KQF) for discussion
-- Slack: See [#aspirecloud](<[index.md](https://app.slack.com/client/T07Q5LB7W23/C07QYT2BRQ9)>) for discission
+- Slack: See [#aspirecloud](https://app.slack.com/client/T07Q5LB7W23/C07QYT2BRQ9) for discission
 
 ### Configuration
 
