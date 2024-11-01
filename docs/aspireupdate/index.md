@@ -89,8 +89,8 @@ This approach has several benefits:
 6. Click View.
 
 Expected Results
-:white_check_mark: "Default API Found" entries should reference api.wordpress.org.
-:white_check_mark: "API Rerouted to" entries should reference api.aspirecloud.org.
+✅ "Default API Found" entries should reference api.wordpress.org.
+✅ "API Rerouted to" entries should reference api.aspirecloud.org.
 
 👥 The current team
 
