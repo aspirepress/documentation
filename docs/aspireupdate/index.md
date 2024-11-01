@@ -32,21 +32,28 @@ State Diagram:
 [Diagram by Mermaid](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/)
 
 ```mermaid
-sequenceDiagram;
-    participant SiteA as AspireUpdate on WP-Site1;
-    participant CentralAPI as AspireCloud;
-    participant WPRepo as WordPress.org API;
-
-    SiteA->>CentralAPI: Request asset info;
-    CentralAPI->>CentralAPI: Check local repository for asset data;
-    alt Plugin data exists in local repository;
-        CentralAPI-->>SiteA: Return asset(s);
-    else Asset(s) requested not found;
-        CentralAPI->>WPRepo: Fetch asset info from canonical API;
-        WPRepo-->>CentralAPI: Return asset data;
-        CentralAPI->>CentralAPI: Store asset data;
-        CentralAPI-->>SiteA: Return asset data;
-    end;
+---
+config:
+  theme: base
+---
+sequenceDiagram
+  participant AU as AspireUpdate on A WordPress Site
+  participant AC as AspireCloud (or YourCloud)
+  participant Worg as WordPress.org API
+  participant AS as AspireSync
+  AU -) Worg: Rewrite Mode OFF - Request asset(s)
+  Worg -) AU: Return asset(s) from W.org
+  Note right of Worg: This mode will eventually be deprecated.
+  opt Rewrite Mode ON
+    AU ->> AC: Request asset(s)
+    AC ->> AU: Return asset(s)
+    AC -->> Worg: Fetch asset(s)
+    Worg -->> AC: Return asset(s)
+    AC -->> AC: Store asset(s)
+    AC ->> AU: Return asset(s)
+    Worg -->> AS: Sync asset(s)
+    AS ->> AC: Prime AspireCloud as necessary
+  end
 ```
 
 This approach has several benefits:
