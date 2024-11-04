@@ -34,43 +34,29 @@ flowchart TD
 
 ## How to install AspireCloud
 
-Download and install AspireCloud:
-
-[In Development](https://github.com/aspirepress/AspireCloud/tree/main)
-
-👥 The current team
-
-| Slack                                        |     TZ     |                  Role |       Committment        |
-| :------------------------------------------- | :--------: | --------------------: | :----------------------: |
-| [@NamithJ ](https://github.com/sarah-savage) | (GMT-0500) |          Project Lead |           TBC            |
-| [@chuckadams](https://github.com/chuckadams) | (GMT-0700) | AspireCloud Developer |     2 hours per week     |
-| [@tmeister](https://github.com/tmeister)     | (GMT-0700) | AspireCloud Developer |           TBC            |
-| [@asirota ](https://github.com/asirota)      | (GMT-0500) |         Documentation | 2 hours per week or more |
-
-🚨Issues/Concerns
-
-- A complete REST API for AspireCloud including federation/defederation
-- An interopability specification with other repository projects
-- Need a technical architect for working out the overall design
-- Need testers!
-
-📝 Upcoming topics
-
-- Get feedback on proposed approach from AP community
-
-✅ Action items
-
-- Continue to document a technical architecture
-- Divide labour and create projects and tasks and milestones
-
-🔑 Key links
-
-- Slack: See [#aspireupdate](https://app.slack.com/client/T07Q5LB7W23/C07Q88M2KQF) for discussion
-- Slack: See [#aspirecloud](https://app.slack.com/client/T07Q5LB7W23/C07QYT2BRQ9) for discussion
+[Clone and Install AspireCloud](https://github.com/aspirepress/AspireCloud?tab=readme-ov-file#quick-start)
 
 ### Configuration
 
-See [AspireCloud](https://github.com/aspirepress/AspireCloud)
+See [AspireCloud README](https://github.com/aspirepress/AspireCloud)
+
+## 👥 The AspireCloud Contributors
+
+[AspireCloud Contributors](https://github.com/aspirepress/AspireCloud/graphs/contributors)
+
+## 🚨Issues/Concerns
+
+- A complete REST API for AspireCloud including federation/defederation
+- An interopability specification with other repository projects
+- Need testers and implementers!
+
+## ✅ Action items
+
+- Continue to document a technical architecture
+
+## 🔑 Key links
+
+- Slack: See [#aspirecloud](https://app.slack.com/client/T07Q5LB7W23/C07QYT2BRQ9) for discussion
 
 ## Contributing
 

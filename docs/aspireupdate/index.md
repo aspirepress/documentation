@@ -4,7 +4,7 @@ title: Welcome to AspireUpdate
 permalink: /aspireupdate/
 ---
 
-## What is AspireUpdate?
+# What is AspireUpdate?
 
 [AspireUpdate](https://github.com/aspirepress/AspireUpdate) is an open source project that enables WordPress sites to use an alternative repository for updates. The plugin reverts to WordPress.org repository when updates are not available in the configured mirror.
 
@@ -59,22 +59,30 @@ sequenceDiagram
 This approach has several benefits:
 
 1. Scopes down AspireSync entirely out of the solution for now. No federation between AspireClouds for now. Initial mirror(s) start with zero plugins or themes and grow organically as demand for hosting on mirror grows. Installation is greatly reduced as you need AspireUpdate plugin at the user's end and AspireCloud service to handle update requests and delegate to .org if there is no asset to serve from configured API update endpoint.
-2. Hosting companies can set this up for their default WordPress installs with default AspireClouds on their own. Let a million mirrors bloom!
-3. Aspire Updater plugin is installed on a site. User can choose from a list of known AspireClouds, or it can be locked to one by host.
-4. The plugin rewrites all API calls to api.aspirepress.org or to another AspireCloud powered API. AP maintains for now a set of trusted API end points which correspond to AspireCloud mirrors.
-5. If AspireCloud has a response, that requested asset is available, we give the asset back to plugin.
-6. If AspireCloud does not have the asset, AspireUodate then calls .org canonical repo. It fetches the asset, pushes the whole response to AspireCloud to populate the mirror with the requested asset. This is how a specific AspireCloud gets populated with new assets beyond manual population by a plugin or theme developer.
-7. AspireUpdate passes the response of asset back to WordPress for handling the update install process.
-8. AspireCloud receives the asset, stores it in the data store. It can later serve requests for newly acquired asset.
-9. The asset that was pulled in from .org will expire after say 1 day (configurable).
-10. Once the asset expires, future requests to AspireCloud tells AspireUpdate that it doesn’t have the asset, fetches it again in the similar approach as above.
-11. The Process repeats as requests are made for updates. Deletgations are made to WordPress.org are made when an asset locally is not available.
 
+2. Hosting companies can set this up for their default WordPress installs with default AspireClouds on their own. Let a million mirrors bloom!
+
+3. Aspire Updater plugin is installed on a site. User can choose from a list of known AspireClouds, or it can be locked to one by host.
+
+4. The plugin rewrites all API calls to api.aspirepress.org or to another AspireCloud powered API. AP maintains for now a set of trusted API end points which correspond to AspireCloud mirrors.
+
+5. If AspireCloud has a response, that requested asset is available, we give the asset back to plugin.
+
+6. If AspireCloud does not have the asset, AspireUodate then calls .org canonical repo. It fetches the asset, pushes the whole response to AspireCloud to populate the mirror with the requested asset. This is how a specific AspireCloud gets populated with new assets beyond manual population by a plugin or theme developer.
+
+7. AspireUpdate passes the response of asset back to WordPress for handling the update install process.
+
+8. AspireCloud receives the asset, stores it in the data store. It can later serve requests for newly acquired asset.
+
+9. The asset that was pulled in from .org will expire after say 1 day (configurable).
+
+10. Once the asset expires, future requests to AspireCloud tells AspireUpdate that it doesn’t have the asset, fetches it again in the similar approach as above.
+
+11. The Process repeats as requests are made for updates. Deletgations are made to WordPress.org are made when an asset locally is not available.
 
 ## Testing AspireUpdate
 
 ### Setting up AspireUpdate
-
 
 1. [Visit the WP Playground](https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2Faspirepress%2FAspireUpdate%2Frefs%2Fheads%2Fplayground-ready%2Fassets%2Fplayground%2Fblueprint.json)to load up WordPress, with AspireUpdate latest stable version..
 2. Check `Enable AspireUpdate API Rewrites`.
@@ -98,43 +106,40 @@ This approach has several benefits:
 6. Click View.
 
 Expected Results
-:white_check_mark: "Default API Found" entries should reference api.wordpress.org.
-:white_check_mark: "API Rerouted to" entries should reference api.aspirecloud.org.
 
-👥 The current team
+✅ "Default API Found" entries should reference api.wordpress.org.
 
-| Slack                                            |     TZ     |                   Role |        Committment        |
-| :----------------------------------------------- | :--------: | ---------------------: | :-----------------------: |
-| [@NamithJ](https://github.com/namithj)           | (GMT+0530) | AspireUpdate Developer |       4 hours/week        |
-| [@costdev](https://github.com/costdev)           | (GMT+0000) | AspireUpdate Developer |            TBC            |
-| [@asirota](https://github.com/asirota)           | (GMT-0500) |      AspireUpdate Lead | 1 hour per day maybe more |
-| [@sarah-savage](https://github.com/sarah-savage) | (GMT-0500) |           Project Lead |            TBC            |
+✅ "API Rerouted to" entries should reference api.aspirecloud.org.
 
-=======
-🚨Issues/Concerns
+## 👥 The AspireUpdate Contributors
+
+[AspireUpdate Contributors](https://github.com/aspirepress/AspireUpdate/graphs/contributors)
+
+## FAQs
+
+Q: Why can’t I find the “Favorites” or “Features” tab when adding a new plugin or theme in AspireUpdate?
+
+A: In the current version of AspireUpdate, the “Favorites” and “Features” tabs are unavailable due to compatibility limitations.
+
+## 🚨Issues/Concerns
 
 - Need Another plugin dev/tester
 - A REST API dev to develop the AspireCloud
 - Need a technical architect for working out the overall design
 - Need testers!
 
-📝 Upcoming topics
+## 📝 Upcoming topics
 
 - Get feedback on proposed approach from AP community
 
-✅ Action items
+## ✅ Action items
 
 - Continue to document a technical architecture
 - Divide labour and create projects and tasks and milestones @Yosef Eliezrie
 
-🔑 Key links
+## 🔑 Key links
 
 - Slack: See [#aspireupdate](https://app.slack.com/client/T07Q5LB7W23/C07Q88M2KQF) for discussion
-- Slack: See [#aspirecloud](https://app.slack.com/client/T07Q5LB7W23/C07QYT2BRQ9) for discussion
-
-### Configuration
-
-By default the plugin is accessing the api.aspirecloud.org endpoint. There should be no other configuration required. You can turn on the debug log and reset the settings. Use the advanced=true query param in the settings screen to turn on advanced configuration settings.
 
 ## Contributing
 
