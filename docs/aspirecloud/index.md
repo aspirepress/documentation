@@ -32,15 +32,23 @@ flowchart TD
     style Server2B fill:#A0b9f3,stroke:#333,rx:10,ry:10
 ```
 
+
 ## How to install AspireCloud
+
 
 [Clone and Install AspireCloud](https://github.com/aspirepress/AspireCloud?tab=readme-ov-file#quick-start)
 
 ### Configuration
+- A complete REST API for AspireCloud including federation/defederation
+- An interopability specification with other repository projects
+- Need a technical architect for working out the overall design
+- Need testers!
 
 See [AspireCloud README](https://github.com/aspirepress/AspireCloud)
 
 ## 👥 The AspireCloud Contributors
+
+- Get feedback on proposed approach from AP community
 
 [AspireCloud Contributors](https://github.com/aspirepress/AspireCloud/graphs/contributors)
 
@@ -49,6 +57,7 @@ See [AspireCloud README](https://github.com/aspirepress/AspireCloud)
 - A complete REST API for AspireCloud including federation/defederation
 - An interopability specification with other repository projects
 - Need testers and implementers!
+
 
 ## ✅ Action items
 

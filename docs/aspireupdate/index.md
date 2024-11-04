@@ -80,13 +80,15 @@ This approach has several benefits:
 
 11. The Process repeats as requests are made for updates. Deletgations are made to WordPress.org are made when an asset locally is not available.
 
+
 ## Testing AspireUpdate
 
 ### Setting up AspireUpdate
 
+
 1. [Visit the WP Playground](https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2Faspirepress%2FAspireUpdate%2Frefs%2Fheads%2Fplayground-ready%2Fassets%2Fplayground%2Fblueprint.json)to load up WordPress, with AspireUpdate latest stable version..
 2. Check `Enable AspireUpdate API Rewrites`.
-3. Enter `Voltron` for the API Key (any key currently works but must be entered).
+3. Enter anything for the API Key. (not currently enforced)
 4. Check `Enable Debug Mode`.
 5. Check `String`.
 6. Click Save Changes.
@@ -108,17 +110,16 @@ This approach has several benefits:
 Expected Results
 
 ✅ "Default API Found" entries should reference api.wordpress.org.
-
 ✅ "API Rerouted to" entries should reference api.aspirecloud.org.
 
 ## 👥 The AspireUpdate Contributors
 
 [AspireUpdate Contributors](https://github.com/aspirepress/AspireUpdate/graphs/contributors)
 
+
 ## FAQs
 
 Q: Why can’t I find the “Favorites” or “Features” tab when adding a new plugin or theme in AspireUpdate?
-
 A: In the current version of AspireUpdate, the “Favorites” and “Features” tabs are unavailable due to compatibility limitations.
 
 ## 🚨Issues/Concerns
@@ -140,6 +141,11 @@ A: In the current version of AspireUpdate, the “Favorites” and “Features�
 ## 🔑 Key links
 
 - Slack: See [#aspireupdate](https://app.slack.com/client/T07Q5LB7W23/C07Q88M2KQF) for discussion
+
+### Configuration
+
+By default the plugin is accessing the api.aspirecloud.org endpoint. There should be no other configuration required. You can turn on the debug log and reset the settings. Use the advanced=true query param in the settings screen to turn on advanced configuration settings.
+
 
 ## Contributing
 
