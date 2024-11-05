@@ -14,6 +14,7 @@ Download and Install AspireUpdate:
 
 [Current Build](https://github.com/aspirepress/AspireUpdate/tree/main)
 [Stable Build](https://github.com/aspirepress/AspireUpdate/tree/main)
+[Releases](https://github.com/aspirepress/AspireUpdate/releases)
 
 No API Key is currently required.
 
