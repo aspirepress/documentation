@@ -6,20 +6,22 @@ permalink: /aspireupdate/
 
 # What is AspireUpdate?
 
-[AspireUpdate](https://github.com/aspirepress/AspireUpdate) is an open source project that enables WordPress sites to use an alternative repository for updates. The plugin reverts to WordPress.org repository when updates are not available in the configured mirror.
+[AspireUpdate](https://github.com/aspirepress/AspireUpdate) is an open source WordPress plugin that enables WordPress sites to use an alternative repository for updates. The plugin reverts to WordPress.org repository when updates are not available in the configured AspireCloud instance.
 
 ## How to install AspireUpdate
 
-Download and install AspireUpdate:
+Download and Install AspireUpdate:
 
-[In Development](https://github.com/aspirepress/AspireUpdate/tree/main)
+[Current Build](https://github.com/aspirepress/AspireUpdate/tree/main)
+[Stable Build](https://github.com/aspirepress/AspireUpdate/tree/main)
 
-WP Playground:
-[Testing Link in WP Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/aspirepress/AspireUpdate/refs/heads/playground-ready/assets/playground/blueprint.json)
+No API Key is currently required.
 
-[WP Playground Blueprint](https://github.com/aspirepress/AspireUpdate/blob/playground-ready/assets/playground/blueprint.json)
+## Try AspireUpdate in WP Playground
 
-No API Key is required.
+[Try out AspireUpdate WP Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/aspirepress/AspireUpdate/refs/heads/playground-ready/assets/playground/blueprint.json)
+
+[Look at WP Playground Blueprint.json](https://github.com/aspirepress/AspireUpdate/blob/playground-ready/assets/playground/blueprint.json)
 
 ## Design of Phase 1 of AspirePress
 
