@@ -22,25 +22,30 @@ Here are the current main features of AspireSync:
 
 NOTE: AspireSync runs in a Docker container, so make sure you have Docker installed. You can run Docker on [Windows or Mac natively](https://docs.docker.com/engine/install/) but these instructions will not cover those situations. The documentation assumes you are running Linux, MacOS Mach or Windows WSL2. To build and use your own Docker container with AspireSync, follow the instructions in the [AspireSync README file](https://github.com/aspirepress/AspireSync/blob/main/README.md).
 
-You may need to prefix commands with `sudo` depending on your permission level for your login.
+[See the AspireSync README for a QuickStart install.](https://github.com/aspirepress/AspireSync?tab=readme-ov-file#quick-start)
 
-1. `git clone https://github.com/aspirepress/AspireSync` to retrieve  the code base to your environment
-   
-2.  `make init` to build the Docker container for AspireSync
-    
-3. `make list` to see available AspireSync commands
-    
-4. `make run` which will run the container.
-    
-5. `aspiresync <command>` to execute your desired command.
+## 👥 The AspireSync Contributors
 
+[AspireSync Contributors](https://github.com/aspirepress/AspireSync/graphs/contributors)
 
-To use AspireSync from a DockerHub container you can use:
+## FAQs
 
-`sudo docker run -it --rm aspirepress/aspiresync sh`
+## 🚨Issues/Concerns
 
-This will run a local docker instance and enter you into a shell ready for use.
+- Need testers!
 
+## 📝 Upcoming topics
+
+- Get feedback on functionality from AspirePress community
+
+## ✅ Action items
+
+- Continue to document a technical architecture
+- Divide labour and create projects and tasks and milestones @Yosef Eliezrie
+
+## 🔑 Key links
+
+- Slack: See [#aspiresync](https://aspirepress.slack.com/archives/C07QG6AUN4E) for discussion
 
 ## Contributing
 
@@ -57,5 +62,3 @@ adherance to which is required by all members of the project.
 AspirePress is a community project, powered by people just like you. Thank you to
 our [contributors](https://github.com/aspirepress/.github/blob/main/CREDITS.md) for their generous participation in
 AspirePress.
-
-
