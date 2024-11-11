@@ -34,13 +34,11 @@ flowchart TD
 
 
 ## How to install AspireCloud
-
-
 [Clone and Install AspireCloud](https://github.com/aspirepress/AspireCloud?tab=readme-ov-file#quick-start)
 
 ### Configuration
 - A complete REST API for AspireCloud including federation/defederation
-- An interopability specification with other repository projects
+- An interoperability specification with other repository projects
 - Need a technical architect for working out the overall design
 - Need testers!
 
@@ -75,7 +73,7 @@ our [Contribution Guidelines](https://github.com/aspirepress/.github/blob/main/C
 ## Code of Conduct
 
 AspirePress also implements a [Code of Conduct](https://github.com/aspirepress/.github/blob/main/CODE_OF_CONDUCT.md),
-adherance to which is required by all members of the project.
+adherence to which is required by all members of the project.
 
 ## Credits
 
