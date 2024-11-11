@@ -71,7 +71,7 @@ This approach has several benefits:
 
 5. If AspireCloud has a response, that requested asset is available, we give the asset back to plugin.
 
-6. If AspireCloud does not have the asset, AspireUodate then calls .org canonical repo. It fetches the asset, pushes the whole response to AspireCloud to populate the mirror with the requested asset. This is how a specific AspireCloud gets populated with new assets beyond manual population by a plugin or theme developer.
+6. If AspireCloud does not have the asset, AspireUpdate then calls .org canonical repo. It fetches the asset, pushes the whole response to AspireCloud to populate the mirror with the requested asset. This is how a specific AspireCloud gets populated with new assets beyond manual population by a plugin or theme developer.
 
 7. AspireUpdate passes the response of asset back to WordPress for handling the update install process.
 
@@ -81,7 +81,7 @@ This approach has several benefits:
 
 10. Once the asset expires, future requests to AspireCloud tells AspireUpdate that it doesn’t have the asset, fetches it again in the similar approach as above.
 
-11. The Process repeats as requests are made for updates. Deletgations are made to WordPress.org are made when an asset locally is not available.
+11. The Process repeats as requests are made for updates. Delegations are made to WordPress.org are made when an asset locally is not available.
 
 ## Testing AspireUpdate
 
@@ -154,7 +154,7 @@ our [Contribution Guidelines](https://github.com/aspirepress/.github/blob/main/C
 ## Code of Conduct
 
 AspirePress also implements a [Code of Conduct](https://github.com/aspirepress/.github/blob/main/CODE_OF_CONDUCT.md),
-adherance to which is required by all members of the project.
+adherence to which is required by all members of the project.
 
 ## Credits
 
