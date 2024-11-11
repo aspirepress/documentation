@@ -12,13 +12,11 @@ We're building the content management system we all aspire for.
 
 ## Packages
 
-* [AspireCloud](/aspirecloud/) - A package repository for delivering plugin, theme and core updates for WordPress
+- [AspireCloud](/aspirecloud/) - A package repository for delivering plugin, theme and core updates for WordPress
   websites.
-* [AspireUpdate](/aspireupdate/) - A plugin for WordPress that allows the use of third-party package management tools
+- [AspireUpdate](/aspireupdate/) - A plugin for WordPress that allows the use of third-party package management tools
   like AspireCloud.
-* [AspireSync](/aspiresync/) - Tooling for pulling a collection of plugins and themes from a source (like WordPress).
-
-A [Docker container](https://gist.github.com/mzalewski/a07708732be526184d8f719d8d6f255f) is available for testing the full environment. 
+- [AspireSync](/aspiresync/) - Tooling for pulling a collection of plugins and themes from a source (like WordPress).
 
 ## Contributing
 
@@ -28,12 +26,10 @@ our [Contribution Guidelines](https://github.com/aspirepress/.github/blob/main/C
 ## Code of Conduct
 
 AspirePress also implements a [Code of Conduct](https://github.com/aspirepress/.github/blob/main/CODE_OF_CONDUCT.md),
-adherance to which is required by all members of the project.
+adherence to which is required by all members of the project.
 
 ## Credits
 
 AspirePress is a community project, powered by people just like you. Thank you to
 our [contributors](https://github.com/aspirepress/.github/blob/main/CREDITS.md) for their generous participation in
 AspirePress.
-
-
