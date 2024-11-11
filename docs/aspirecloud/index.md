@@ -32,45 +32,38 @@ flowchart TD
     style Server2B fill:#A0b9f3,stroke:#333,rx:10,ry:10
 ```
 
+
 ## How to install AspireCloud
+[Clone and Install AspireCloud](https://github.com/aspirepress/AspireCloud?tab=readme-ov-file#quick-start)
 
-Download and install AspireCloud:
-
-[In Development](https://github.com/aspirepress/AspireCloud/tree/main)
-
-👥 The current team
-
-| Slack                                        |     TZ     |                  Role |       Committment        |
-| :------------------------------------------- | :--------: | --------------------: | :----------------------: |
-| [@NamithJ ](https://github.com/sarah-savage) | (GMT-0500) |          Project Lead |           TBC            |
-| [@chuckadams](https://github.com/chuckadams) | (GMT-0700) | AspireCloud Developer |     2 hours per week     |
-| [@tmeister](https://github.com/tmeister)     | (GMT-0700) | AspireCloud Developer |           TBC            |
-| [@asirota ](https://github.com/asirota)      | (GMT-0500) |         Documentation | 2 hours per week or more |
-
-🚨Issues/Concerns
-
+### Configuration
 - A complete REST API for AspireCloud including federation/defederation
-- An interopability specification with other repository projects
+- An interoperability specification with other repository projects
 - Need a technical architect for working out the overall design
 - Need testers!
 
-📝 Upcoming topics
+See [AspireCloud README](https://github.com/aspirepress/AspireCloud)
+
+## 👥 The AspireCloud Contributors
 
 - Get feedback on proposed approach from AP community
 
-✅ Action items
+[AspireCloud Contributors](https://github.com/aspirepress/AspireCloud/graphs/contributors)
+
+## 🚨Issues/Concerns
+
+- A complete REST API for AspireCloud including federation/defederation
+- An interopability specification with other repository projects
+- Need testers and implementers!
+
+
+## ✅ Action items
 
 - Continue to document a technical architecture
-- Divide labour and create projects and tasks and milestones
 
-🔑 Key links
+## 🔑 Key links
 
-- Slack: See [#aspireupdate](https://app.slack.com/client/T07Q5LB7W23/C07Q88M2KQF) for discussion
 - Slack: See [#aspirecloud](https://app.slack.com/client/T07Q5LB7W23/C07QYT2BRQ9) for discussion
-
-### Configuration
-
-See [AspireCloud](https://github.com/aspirepress/AspireCloud)
 
 ## Contributing
 
@@ -80,7 +73,7 @@ our [Contribution Guidelines](https://github.com/aspirepress/.github/blob/main/C
 ## Code of Conduct
 
 AspirePress also implements a [Code of Conduct](https://github.com/aspirepress/.github/blob/main/CODE_OF_CONDUCT.md),
-adherance to which is required by all members of the project.
+adherence to which is required by all members of the project.
 
 ## Credits
 
