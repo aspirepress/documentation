@@ -15,7 +15,7 @@ Here are the current main features of AspireSync:
 - Download the latest version of a plugin/theme, or all versions, or a subset
 - Handles closed and not found plugins/themes
 - Updates only those items that are updated in SVN, so you don't have to pull the entire repository
-- Supports Postgres databse out of the box for metadata storage
+- Supports Postgres database out of the box for metadata storage
 - Operates in up to 24 parallel tasks to allow for a speedy download and sync
 
 ## How to install and run AspireSync
@@ -55,7 +55,7 @@ our [Contribution Guidelines](https://github.com/aspirepress/.github/blob/main/C
 ## Code of Conduct
 
 AspirePress also implements a [Code of Conduct](https://github.com/aspirepress/.github/blob/main/CODE_OF_CONDUCT.md),
-adherance to which is required by all members of the project.
+adherence to which is required by all members of the project.
 
 ## Credits
 
