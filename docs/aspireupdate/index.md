@@ -26,7 +26,7 @@ No API Key is currently required.
 
 [Try out AspireUpdate WP Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/aspirepress/AspireUpdate/refs/heads/playground-ready/assets/playground/blueprint.json)
 
-[Look at WP Playground Blueprint.json](https://github.com/aspirepress/AspireUpdate/blob/playground-ready/assets/playground/blueprint.json)
+[Review the WP Playground blueprint.json](https://github.com/aspirepress/AspireUpdate/blob/playground-ready/assets/playground/blueprint.json)
 
 ## Design of Phase 1 of AspirePress
 
