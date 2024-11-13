@@ -1,2 +1,10 @@
 /node_modules
 .idea
+Gemfile.lock
+
+# All rendered jekyll files - not needed on GH
+_site/
+
+# All rendered dev webpack files — not needed on GH
+dist/docs.js
+dist/styles.css

@@ -46,12 +46,19 @@ h3 {
 article ul {
     @apply list-disc pl-6;
 }
+article ol {
+	@apply list-decimal pl-6;
+}
+article ul li,
+article ol li {
+	@apply mb-1;
+}
 
 .focus\:placeholder-none:focus::placeholder {
     opacity: 0;
 }
 
-p, ul {
+p, ul, ol {
     @apply mb-4;
 }
 
