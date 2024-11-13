@@ -40,7 +40,7 @@ config:
   theme: base
 ---
 sequenceDiagram
-  participant AU as AspireUpdate on A WordPress Site
+  participant AU as AspireUpdate on a WordPress Site
   participant AC as AspireCloud (or YourCloud)
   participant Worg as WordPress.org API
   participant AS as AspireSync
@@ -124,7 +124,7 @@ A: In the current version of AspireUpdate, the “Favorites” and “Features�
 
 ## 🚨Issues/Concerns
 
-- Need Another plugin dev/tester
+- Need another plugin dev/tester
 - A REST API dev to develop the AspireCloud
 - Need a technical architect for working out the overall design going forward
 - Need testers!
