@@ -6,8 +6,6 @@ permalink: /aspireupdate/
 
 # What is AspireUpdate?
 
-# What is AspireUpdate?
-
 [AspireUpdate](https://github.com/aspirepress/AspireUpdate) is an open source WordPress plugin that enables WordPress sites to use an alternative repository for updates. The plugin reverts to WordPress.org repository when updates are not available in the configured AspireCloud instance.
 [AspireUpdate](https://github.com/aspirepress/AspireUpdate) is an open source WordPress plugin that enables WordPress sites to use an alternative repository for updates. The plugin reverts to WordPress.org repository when updates are not available in the configured AspireCloud instance.
 
@@ -117,51 +115,14 @@ Expected Results
 ✅ "Default API Found" entries should reference api.wordpress.org.
 ✅ "API Rerouted to" entries should reference api.aspirecloud.org.
 
-## 👥 The AspireUpdate Contributors
-
-[AspireUpdate Contributors](https://github.com/aspirepress/AspireUpdate/graphs/contributors)
 
 ## FAQs
 
 Q: Why can’t I find the “Favorites” or “Features” tab when adding a new plugin or theme in AspireUpdate?
 A: In the current version of AspireUpdate, the “Favorites” and “Features” tabs are unavailable due to compatibility limitations.
 
-## 🚨Issues/Concerns
-
-- Need another plugin dev/tester
-- A REST API dev to develop the AspireCloud
-- Need a technical architect for working out the overall design going forward
-- Need testers!
-
-## 📝 Upcoming topics
-
-- Get feedback on proposed approach from AP community
-
-## ✅ Action items
-
-- Continue to document a technical architecture
-- Divide labour and create projects and tasks and milestones @Yosef Eliezrie
-
-## 🔑 Key links
-
-- Slack: See [#aspireupdate](https://app.slack.com/client/T07Q5LB7W23/C07Q88M2KQF) for discussion
 
 ### Configuration
 
 By default the plugin is accessing the api.aspirecloud.org endpoint. There should be no other configuration required. You can turn on the debug log and reset the settings. Use the advanced=true query param in the settings screen to turn on advanced configuration settings.
 
-## Contributing
-
-AspirePress welcomes contributions from people like you. We encourage you to review
-our [Contribution Guidelines](https://github.com/aspirepress/.github/blob/main/CONTRIBUTING.md).
-
-## Code of Conduct
-
-AspirePress also implements a [Code of Conduct](https://github.com/aspirepress/.github/blob/main/CODE_OF_CONDUCT.md),
-adherence to which is required by all members of the project.
-
-## Credits
-
-AspirePress is a community project, powered by people just like you. Thank you to
-our [contributors](https://github.com/aspirepress/.github/blob/main/CREDITS.md) for their generous participation in
-AspirePress.
