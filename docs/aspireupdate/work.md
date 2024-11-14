@@ -20,9 +20,9 @@ permalink: /aspireupdate/work/
 - GitHub [issues](https://github.com/aspirepress/AspireUpdate/issues) for tracking bugs and new features 
 - GitHub [discussions](https://github.com/aspirepress/AspireUpdate/discussions) for disucssions
 - GitHub [milstones](https://github.com/aspirepress/AspireUpdate/milestones) for tracking releases 
-- Slack channel [#aspireupdate](https://app.slack.com/client/T07Q5LB7W23/C07Q88M2KQF) for discussions ([sign up form](https://aspirepress.org/slack/))
+- Slack channel [#aspireupdate](https://app.slack.com/client/T07Q5LB7W23/C07Q88M2KQF) for discussions [sign up form](https://aspirepress.org/slack/) 
 
-- ## 👥 The AspireUpdate Contributors
+## 👥 The AspireUpdate Contributors
 
 [AspireUpdate Contributors](https://github.com/aspirepress/AspireUpdate/graphs/contributors)
 
