@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to AspireUpdate
+title: Welcome to AspireCloud
 permalink: /aspirecloud/work/
 ---
 
