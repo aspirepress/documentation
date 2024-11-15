@@ -1,11 +1,20 @@
 AspirePress:
     Introduction: '/'
+    Code of Conduct: '/code-of-conduct/'
+    Contributing: '/contributing/'
+    Credits: '/credits/'
+
 
 AspireCloud:
     Introduction: '/aspirecloud/'
+    Work: '/aspirecloud/work/'    
+    
 
 AspireSync:
     Introduction: '/aspiresync/'
+    Work: '/aspiresync/work/'    
+    
 
 AspireUpdate:
     Introduction: '/aspireupdate/'
+    Work: '/aspireupdate/work/' 
