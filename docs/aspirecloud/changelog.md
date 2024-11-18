@@ -33,6 +33,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - e
 
+### New contrubutors  
+
+- @x on #007
+
+  
 ## [0.0.0] - YYYY-MM-DD  (Link to relase in GitHub)
 
 ### Added
@@ -54,5 +59,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security 
 
 - e
+
+### New contrubutors  
+
+- @x on #007
 
 
