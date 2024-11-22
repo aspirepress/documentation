@@ -126,7 +126,17 @@
                 <h1 class="mb-4">{% if page.alternate_title %}{{ page.alternate_title }}{% else %}{{ page.title }}{%
                     endif %}{% if page.url contains "/v1/" %} (V1){% endif %}</h1>
                 {% endunless %}
+   
                 {{ content }}
+
+                <h4>
+                {% if page.last_modified_at %}
+                   {{ page.last_modified_at | date: "%B %d, %Y" }}
+                {% else %}
+                   
+                {% endif %}      
+                </h4>
+                
             </article>
         </div>
     </main>
