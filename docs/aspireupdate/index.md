@@ -125,5 +125,5 @@ A: In the current version of AspireUpdate, the “Favorites” and “Features�
 
 ### Configuration
 
-By default the plugin is accessing the api.aspirecloud.org endpoint. There should be no other configuration required. You can turn on the debug log and reset the settings. Use the advanced=true query param in the settings screen to turn on advanced configuration settings.
+By default the plugin is accessing the api.aspirecloud.org endpoint. There should be no other configuration required. You can turn on the debug log and reset the settings. 
 
