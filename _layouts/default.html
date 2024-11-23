@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -14,7 +14,10 @@
     {% endunless %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
     <link rel="stylesheet" href="{{ site.data.manifest['docs.css'] }}" />
-
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <!-- mermaid modules and style samples 
      themes: default, neutral, dark, forest or base
     -->
@@ -60,16 +63,17 @@
         <div class="max-w-2xl mx-auto px-4 py-2">
             <div class="flex items-center flex-no-shrink top-0">
                 <a href="/" class="flex items-center h-14">
-                    <img class="mr-3 h-14" src="/img/aspirepress.png" />
+                    <img class="mr-3 h-14" src="/img/aspirepress.png" alt="AspirePress Logo"/>
                     <span class="pr-2 font-normal overflow-hidden font-heading text-3xl text-indigo-darkest -sm:hidden">
                         AspirePress Docs
                     </span>
                 </a>
                 <div class="flex-grow"></div>
-                <div class="flex-no-shrink flex-no-grow h-10 px-4 relative">
+                <!-- Comment out the search for now, its not yet hooked up to Agolia
+               <div class="flex-no-shrink flex-no-grow h-10 px-4 relative">
                     <input id="global-search"
                         class="focus:outline-0 h-10 py-2 pl-8 pr-2 text-indigo-darker rounded bg-indigo-lightest focus:border-indigo-light focus:bg-white focus:placeholder-none max-w-xs w-full appearance-none"
-                        type="text" placeholder="Search the docs" />
+                        type="text" placeholder="Search the docs" aria-label="Search the docs"/>
                     <span class="pointer-events-none absolute inset-y-0 left-0 pl-6 flex items-center">
                         <svg class="fill-current pointer-events-none text-indigo-light w-4 h-4 border-transparent border"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -78,6 +82,7 @@
                         </svg>
                     </span>
                 </div>
+                -->
                 <a href="#" id="menu-toggle"
                     class="block md:hidden h-8 w-8 border p-1 border-transparent text-grey hover:text-grey menu-closed">
                     <svg class="menu-closed:shown fill-current h-full w-full" xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +105,7 @@
                 <menu class="pl-0 mt-0">
                     {% assign menu = site.data.menu_v2 %}
                     {% for section in menu %}
-                    <h2 class="tracking-wide mb-0 mt-0 text-sm leading-loose tracking-wide text-indigo-light uppercase">
+                    <h2 class="tracking-wide mb-0 mt-0 text-sm leading-loose tracking-wide text-indigo uppercase">
                         {{ section[0] }}</h2>
                     <ul class="list-reset mb-6 block pr-6">
                         {% for link in section[1] %}
@@ -126,9 +131,19 @@
                 <h1 class="mb-4">{% if page.alternate_title %}{{ page.alternate_title }}{% else %}{{ page.title }}{%
                     endif %}{% if page.url contains "/v1/" %} (V1){% endif %}</h1>
                 {% endunless %}
+   
                 {{ content }}
                 <hr>
                 <p>Information on this page is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International license CC BY-SA 4.0</a>.</p>
+                <h4>
+                {% if page.last_modified_at %}
+                   {{ page.last_modified_at | date: "%B %d, %Y" }}
+                {% else %}
+                   
+                {% endif %}      
+                </h4>
+                
+
             </article>
         </div>
     </main>

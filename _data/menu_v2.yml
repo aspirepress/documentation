@@ -8,13 +8,16 @@ AspirePress:
 AspireCloud:
     Introduction: '/aspirecloud/'
     Work: '/aspirecloud/work/'    
-    
+    Changelog: '/aspirecloud/changelog/'
+
 
 AspireSync:
     Introduction: '/aspiresync/'
     Work: '/aspiresync/work/'    
+    Changelog: '/aspiresync/changelog/'
     
 
 AspireUpdate:
     Introduction: '/aspireupdate/'
     Work: '/aspireupdate/work/' 
+    Changelog: '/aspireupdate/changelog/'
