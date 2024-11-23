@@ -133,7 +133,8 @@
                 {% endunless %}
    
                 {{ content }}
-
+                <hr>
+                <p>Information on this page is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International license CC BY-SA 4.0</a>.</p>
                 <h4>
                 {% if page.last_modified_at %}
                    {{ page.last_modified_at | date: "%B %d, %Y" }}
@@ -142,6 +143,7 @@
                 {% endif %}      
                 </h4>
                 
+
             </article>
         </div>
     </main>
