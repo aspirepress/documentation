@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to AspirePress
+title: Welcome to AspireGuide 
 permalink: /credits/
 ---
 
