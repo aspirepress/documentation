@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to AspireCloud
+title: Welcome to AspireGuide - AspireCloud
 permalink: /aspirecloud/
 ---
 

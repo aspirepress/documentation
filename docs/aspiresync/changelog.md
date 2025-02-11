@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to AspireSync
+title: Welcome to AspireGuide - AspireSync
 permalink: /aspirecloud/changelog/
 ---
 
