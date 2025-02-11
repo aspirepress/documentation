@@ -1,7 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:400,400i,600');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Lato';
+  src: url('assets/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('assets/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('assets/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('assets/OpenSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('assets/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
 
 p img {
     display: inline;
